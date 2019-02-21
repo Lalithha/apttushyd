@@ -7,7 +7,7 @@ CREATE COMPUTE MODULE empdb_Compute
 		-- CALL CopyEntireMessage();
 		Insert into Database.user1.employee values(100,'Richard','developer','development',50000,01/01/2001);
 		
-		SET OutputRoot.JSON.Data.result = 'SUCCESS' ;
+		SET OutputRoot.JSON.Data.result = 'SUCCESS'  ;
 		RETURN TRUE;
 	END;
 
