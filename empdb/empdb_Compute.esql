@@ -5,8 +5,8 @@ CREATE COMPUTE MODULE empdb_Compute
 	BEGIN
 		-- CALL CopyMessageHeaders();
 		-- CALL CopyEntireMessage();
-		--   insert into Database.lalithha.student values(110,'john','1stclass');
-		SET OutputRoot.JSON.Data.result = 'SUCCESSfully completed database update ' ;
+		  insert into Database.lalithha.student values(110,'john','1stclass');
+		SET OutputRoot.JSON.Data.result = 'SUCCESSfully completed database updat ' ;
 		
 		SET OutputRoot.JSON.Data.result = 'SUCCESSfully completed database update ' ;
 		RETURN TRUE;
